@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Play a classic game of Tic-Tac-Toe online. Challenge your friends or test your skills against the computer. Enjoy hours of fun and strategy with our free Tic-Tac-Toe game.">
+  <meta name="keywords"
+    content="Tic-Tac-Toe, online game, multiplayer, strategy game, free game, challenge friends, X and O game">
+
+  <title>Tic Tac Toe</title>
+  <link rel="icon" href="pngwing.com (1).png" type="image/png">
   <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <h1>Tic Tac Toe</h1>
-    <div class="board" id="board"></div>
-    <button id="restartButton" style=" margin-top: 80px;">Restart Game</button>
-   <script src="./index.js"></script>
+  <h1>Tic Tac Toe</h1>
+  <div class="board" id="board"></div>
+  <button id="restartButton" style=" margin-top: 80px;">Restart Game</button>
+  <script src="./index.js"></script>
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Game",
+        "name": "Tic-Tac-Toe",
+        "description": "A classic Tic-Tac-Toe game for two players.",
+        "url": "https://www.yourwebsite.com/tic-tac-toe",
+        "image": "https://www.yourwebsite.com/tic-tac-toe-image.jpg",
+        "players": "2",
+        "suitableFor": "children, adults",
+        "numberOfPlayers": {
+            "@type": "QuantitativeValue",
+            "value": 2
+        },
+        "gamePlatform": {
+            "@type": "DigitalGamePlatform",
+            "name": "Web",
+            "operatingSystem": "Any"
+        }
+    }
+   </script>
 </body>
+
 </html>
